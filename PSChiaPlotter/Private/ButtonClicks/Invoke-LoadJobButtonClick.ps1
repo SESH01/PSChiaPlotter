@@ -175,6 +175,11 @@ function Invoke-LoadJobButtonClick {
                 33 {$Index = 2;break}
                 34 {$Index = 3;break}
                 35 {$Index = 4;break}
+                36 {$Index = 5;break}
+                37 {$Index = 6;break}
+                38 {$Index = 7;break}
+                39 {$Index = 8;break}
+                40 {$Index = 9;break}
                 default {$Index = 1}
             }
             $UIHash.KSize_ComboBox.SelectedIndex = $Index
