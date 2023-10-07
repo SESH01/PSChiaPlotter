@@ -1,7 +1,7 @@
 function Start-ChiaPlotting {
     [CmdletBinding()]
     param(
-        [ValidateSet(25,32,33,34,35)]
+        [ValidateSet(25,32,33,34,35,36,37,38,39,40)]
         [int]$KSize = 32,
     
         [ValidateRange(1,5000)]
@@ -55,6 +55,11 @@ function Start-ChiaPlotting {
             33 {$Buffer = 7400}
             34 {$Buffer = 14800}
             35 {$Buffer = 29600}
+            36 {$Buffer = 59200}
+            37 {$Buffer = 118400}
+            38 {$Buffer = 236800}
+            39 {$Buffer = 473600}
+            40 {$Buffer = 947200}
         }
         Write-Information "Buffer set to: $Buffer"
     }
